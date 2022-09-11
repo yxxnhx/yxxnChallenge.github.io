@@ -1,0 +1,150 @@
+
+#login-container {
+  background: url(./../img/randomBg_1.jpg) no-repeat center / cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#login-form {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-title {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  line-height: 150px;
+}
+
+#login-form input {
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 380px;
+  font-size: 20px;
+  background-color: transparent;
+  color: #fff;
+}
+
+#login-form button {
+  border: 1px solid #fff;
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 7px;
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.greetings {
+  font-size: 30px;
+}
+
+.user-icon {
+  width: 200px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-box {
+  background-color: #e0e0e0;
+  display: flex;
+  padding: 50px 0;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 7px 0 0 7px;
+  justify-content: space-between;
+}
+
+.user-inner {
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 12px 12px 18px 1px rgba(1, 1, 1, 0.5);
+  background-color: #fff;
+  width: 1440px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.userImg img {
+  width: 200px;
+  height: 200px;
+  background-color: #facbcb;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.change-btn {
+  background-color: rgb(0, 0, 0);
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.greetings {
+  text-align: center;
+}
+
+.clock {
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.todo-box {
+  padding: 50px;
+}
+
+.todo-box h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#todo-form input {
+  border: none;
+  border: 1px solid #000;
+  border-radius: 7px;
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+#todo-list  {
+  grid-gap: 30px;
+  border-top: 1px solid #000;
+  padding-top: 30px;
+}
+
+#todo-list li {
+  margin: 10px 0;
+  line-height: 1.7;
+  font-size: 18px;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 15fr 1fr;
+
+}
+
+
+#todo-list button {
+  background-color: transparent;
+  border: none;
+}
