@@ -1,7 +1,6 @@
 # Vanilla-JS-Challenge-Final
 
-https://yxxnhx.github.io/yxxnChallenge.gi
-thub.io/
+https://yxxnhx.github.io/yxxnChallenge.github.io/
 <br />
 
 노마드코더 챌린지를 통해 순수 바닐라 자바스크립트를 이용하여 todo list, log in, weather 서비스를 제공하는 페이지를 만들었습니다
